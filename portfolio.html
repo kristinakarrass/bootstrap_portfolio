@@ -2,73 +2,85 @@
 <html lang="en-us">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device width, initial-scale-1">
 	<title>Kristina Karrass</title>
 	<link rel="stylesheet" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<header>
-		<h1>Kristina Karrass</h1>
-		<nav id="header">
-			<a href="index.html">About</a> |
-			<a href="portfolio.html">Portfolio</a> |
-			<a href="contact.html">Contact</a>
-		</nav>
+	<header id="masterhead">
+		<div class="container">
+		<a href="index.html" id="logo">Kristina Karrass</a>
+				<nav>
+					<a href="index.html">About</a>
+					<a href="portfolio.html">Portfolio</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+		</div>
 	</header>
 
-<!-- wrap main content in container -->
-	<div class="container">
+<div class="wrapper">
 
+	<div id="main-container" class="container">
 <!-- this section is different on each page -->
-<!-- portfolio -->
-		<article>
-			
-			<h1 id="content">Portfolio</h1>
-				
+<!-- personal introduction -->
+
+		<section class="main-section">
+			<h1>Portfolio</h1>
 				<div class="images">
-				<a href="#"><img src="assets/images/women.jpg" alt="women" style="width: 260px; height: 190px;"></a>
-				<h3>Women</h3>
-				</div>
-				
-				<div class="images2">
-				<a href="#"><img src="assets/images/city.jpg" alt="city" style="width: 260px; height: 190px;"></a>
-				<h3>City</h3>
+					<img src="assets/images/women.jpg" alt="women" class="auth-image">
+					<a href="#"><h3>Women</h3></a>
 				</div>
 				
 				<div class="images">
-				<a href="#"><img src="assets/images/grass.jpg" alt="grass" style="width: 260px; height: 190px;"></a>
-				<h3>Grass</h3>
-				</div>
-				
-				<div class="images2">
-				<a href="#"><img src="assets/images/nycity.jpg" alt="nycity" style="width: 260px; height: 190px;"></a>
-				<h3>NY City</h3>
+					<img src="assets/images/city.jpg" alt="city" class="auth-image">
+					<a href="#"><h3>City</h3></a>
 				</div>
 				
 				<div class="images">
-				<a href="#"><img src="assets/images/abstract.jpg" alt="abstract" style="width: 260px; height: 190px"></a>
-				<h3>Abstract</h3>
+					<img src="assets/images/grass.jpg" alt="grass" class="auth-image">
+					<a href="#"><h3>Grass</h3></a>
 				</div>
 				
-				<div class="images2">
-				<a href="#"><img src="assets/images/abstract3.jpg" alt="abstract3" style="width: 260px; height: 190px"></a>
-				<h3>Abstracter</h3>
+				<div class="images">
+					<img src="assets/images/nycity.jpg" alt="nycity" class="auth-image">
+					<a href="#"><h3>NY City</h3></a>
+				</div>
+				
+				<div class="images">
+					<img src="assets/images/abstract.jpg" alt="abstract" class="auth-image">
+					<a href="#"><h3>Abstract</h3></a>
+				</div>
+				
+				<div class="images">
+					<img src="assets/images/abstract3.jpg" alt="abstract3" class="auth-image">
+					<a href="#"><h3>Abstracter</h3></a>
 				</div>
 		
-		</article>
+		</section>
 
-		<aside>
-			<h2>Connect with me</h2>
-			<hr>
-			<nav id="icons">
-				<a href="https://github.com/kristinakarrass" target="_blank"><img class="icons" src="assets/images/github.png" alt="github" style="width: 50px; height: 50px"></a>
-				<a href="http://stackoverflow.com/users/7407109/kri" target="_blank" style="width: 50px; height: 50px"><img class="icons" src="assets/images/stack.png" alt="stackoverflow" style="width: 50px; height: 50px"></a>
-				<a href="https://www.linkedin.com/in/kristina-karrass-05b01b134" target="_blank"><img class="icons" src="assets/images/linkedin.png" alt="linkedin" style="width: 50px; height: 50px"></a>
-			</nav>
-		</aside>
+<!-- This section (connect with me) is the same on each page -->
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with me</h2>
+					
+					<a href="https://github.com/kristinakarrass" target="_blank"><img class="icons" src="assets/images/github.png" alt="github"></a>
+					<a href="http://stackoverflow.com/users/7407109/kri" target="_blank"><img class="icons" src="assets/images/stack.png" alt="stackoverflow"></a>
+					<a href="https://www.linkedin.com/in/kristina-karrass-05b01b134" target="_blank"><img class="icons" src="assets/images/linkedin.png" alt="linkedin"></a>
+
+			</div>
+		</section>
 
 		</div>
-
-		<footer>Copyright &copy; Kristina Karrass</footer>
+</div>
+		<footer>
+			<div class="container">
+			Copyright &copy; Kristina Karrass
+			</div>
+		</footer>
 </body>
 </html>
+
+		
+				
+		
