@@ -1,86 +1,110 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device width, initial-scale-1">
 	<title>Kristina Karrass</title>
-	<link rel="stylesheet" href="assets/css/reset.css">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<header id="masterhead">
-		<div class="container">
-		<a href="index.html" id="logo">Kristina Karrass</a>
-				<nav>
-					<a href="index.html">About</a>
-					<a href="portfolio.html">Portfolio</a>
-					<a href="contact.html">Contact</a>
-				</nav>
-		</div>
-	</header>
 
-<div class="wrapper">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+  	<div class="row">
+  		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="index.html">Kristina Karrass</a>
+    		</div>
+    	</div>
+	
+		<div class="col-xs-12 col-sm-6 col-md-offset-4 col-md-4 col-lg-offset-4 col-lg-4" style="background-color: #666666; color: #cccccc;">
+      		<ul class="nav navbar-nav navbar-right">
+        		<li><a href="index.html">About</a></li>
+        		<li><a href="portfolio.html">Portfolio</a></li>
+        		<li><a href="contact.html">Contact</a></li>  
+      		</ul>
+      	</div>
+      </div>
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- main content -->
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-8" style="border: 1px solid #dddddd; background-color: #ffffff;">
+			<div class="page-header">
+ 				<h1>Portfolio</h1>
+			</div>
+		<!-- row with pictures -->
+			<div class="row">
 
-	<div id="main-container" class="container">
-<!-- this section is different on each page -->
-<!-- personal introduction -->
+			  <div class="col-xs-12 col-sm-6 col-md-12 col-lg-6">
+			  	<div class="thumbnail">
+					<img src="assets/images/women.jpg" alt="women" class="portfolio">
+					<a href="#"><h2>Women</h2></a>
+			  	</div>
+			  </div>  	
 
-		<section class="main-section">
-			<h1>Portfolio</h1>
-				<div class="images">
-					<img src="assets/images/women.jpg" alt="women" class="auth-image">
-					<a href="#"><h3>Women</h3></a>
-				</div>
-				
-				<div class="images">
-					<img src="assets/images/city.jpg" alt="city" class="auth-image">
-					<a href="#"><h3>City</h3></a>
-				</div>
-				
-				<div class="images">
-					<img src="assets/images/grass.jpg" alt="grass" class="auth-image">
-					<a href="#"><h3>Grass</h3></a>
-				</div>
-				
-				<div class="images">
-					<img src="assets/images/nycity.jpg" alt="nycity" class="auth-image">
-					<a href="#"><h3>NY City</h3></a>
-				</div>
-				
-				<div class="images">
-					<img src="assets/images/abstract.jpg" alt="abstract" class="auth-image">
-					<a href="#"><h3>Abstract</h3></a>
-				</div>
-				
-				<div class="images">
-					<img src="assets/images/abstract3.jpg" alt="abstract3" class="auth-image">
-					<a href="#"><h3>Abstracter</h3></a>
-				</div>
-		
-		</section>
+			  <div class="col-xs-12 col-sm-6 col-md-12 col-lg-6">
+			  	<div class="thumbnail">
+					<img src="assets/images/city.jpg" alt="city" class="portfolio"> 
+					<a href="#"><h2>City</h2></a>
+			  </div>
+			  </div>
+			  </div>
 
-<!-- This section (connect with me) is the same on each page -->
-		<section class="sidebar">
-			<div id="connect">
-				<h2>Connect with me</h2>
-					
-					<a href="https://github.com/kristinakarrass" target="_blank"><img class="icons" src="assets/images/github.png" alt="github"></a>
+			 <div class="row">
+			 	<div class="col-xs-12 col-sm-6 col-md-12 col-lg-6">
+			  		<div class="thumbnail">
+					<img src="assets/images/grass.jpg" alt="grass" class="portfolio">
+					<a href="#"><h2>Grass</h2></a>
+			  		</div>
+			  	</div>
+
+			  <div class="col-xs-12 col-sm-6 col-md-12 col-lg-6">
+			  <div class="thumbnail">
+					<img src="assets/images/nycity.jpg" alt="nycity" class="portfolio">
+					<a href="#"><h2>NYCity</h2></a>
+			  </div>
+			 </div>
+			 </div>
+
+				<div class="row">
+				  <div class="col-xs-12 col-sm-6 col-md-12 col-lg-6">
+				  <div class="thumbnail">
+						<img src="assets/images/abstract3.jpg" alt="abstracter" class="portfolio">
+						<a href="#"><h2>Abstracter</h2></a>
+				  </div>
+				  </div>
+				  <div class="col-xs-12 col-sm-6 col-md-12 col-lg-6">
+				  <div class="thumbnail">
+						<img src="assets/images/abstract.jpg" alt="abstract" class="portfolio">
+						<a href="#"><h2>Abstract</h2></a>
+				  </div> 
+				</div> 
+			</div>
+			</div>
+	
+<!-- sidebar -->
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+			<div class="panel panel-default">
+  				<div class="panel-heading">
+   				 	<h3 class="panel-title">Connect with Me</h3>
+  				</div>
+  				<div class="panel-body">
+   					 <a href="https://github.com/kristinakarrass" target="_blank"><img class="icons" src="assets/images/github.png" alt="github"></a>
 					<a href="http://stackoverflow.com/users/7407109/kri" target="_blank"><img class="icons" src="assets/images/stack.png" alt="stackoverflow"></a>
 					<a href="https://www.linkedin.com/in/kristina-karrass-05b01b134" target="_blank"><img class="icons" src="assets/images/linkedin.png" alt="linkedin"></a>
-
+  				</div>
 			</div>
-		</section>
-
 		</div>
-</div>
-		<footer>
-			<div class="container">
-			Copyright &copy; Kristina Karrass
-			</div>
-		</footer>
+		</div>
+		</div>
+
+
+
+<footer>
+	Copyright &copy; 2017 Kristina Karrass
+</footer>
+
 </body>
 </html>
-
-		
-				
-		
